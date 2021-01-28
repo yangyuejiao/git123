@@ -1,0 +1,93 @@
+nav{
+    width: 6.4rem;
+    background-color: rgb(233,233,233);
+    height: auto;
+}
+nav>a{
+    display: block;
+    width: 2.1rem;
+    height: 0.6rem;
+    border: 0.04rem solid #bbb;
+    border-top: none;
+    border-left: none;
+    float: left;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.6rem;
+    background: rgb(233, 233, 233);
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-family:"微软雅黑";
+}
+nav>a:hover{
+    background: #ffffff;
+}
+.banner img,.adv,.gdc{
+    width: 6.4rem;
+    height: auto;
+}
+.adv>.l{
+    width: 3.2rem;
+    height: auto;
+    float: left;
+}
+.adv>.r{
+    width: 3rem;
+    height: auto;
+}
+.gdc>h3,.buy>h3{
+    width: 6.2rem;
+    padding: 0.1rem;
+    line-height: 0.6rem;
+    background-image:-webkit-linear-gradient(top,rgb(233,233,233) 0%,rgb(200,200,200) 50%,rgb(233,233,233) 100%);
+    font-size: 0.3rem;
+}
+.gdc>section{
+    width: 6.4rem;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 0.1rem;
+}
+.gdc>section>img{
+    float: left;
+    width: 2.8rem;
+    height: auto;
+    margin: 0.05rem 0.1rem;
+}
+section>p{
+    margin: 0.1rem;
+    height: auto;
+    width: 3rem;
+    float: right;
+    line-height: 0.35rem;
+}
+section>p>.title{
+    font-size: 0.3rem;
+    color: #555;
+}
+section>p>.price{
+    font-size: 0.3rem;
+    color: #00a;
+}
+section>p>.time{
+    font-size: 0.2rem;
+    color: #777;
+}
+.buy>p{
+    width: 6.4rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    font-size: 0.3rem;
+    border-bottom: 0.02rem dotted #bbb;
+    margin-bottom: 0.1rem;
+    color: black;
+    font-family: "微软雅黑";
+}
+.buy>p>.l{
+    float: left;
+}
+.buy>p>.r{
+    font-size: 0.2rem;
+    float: right;
+}
